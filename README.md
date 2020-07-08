@@ -1,4 +1,4 @@
-# docker-begins
+# Docker-begins
 Dockerfile é um arquivo responsável por realizar a criação e construção de imagens no Docker, dentro dele são definidas instruções que o Docker deve seguir para conseguir realizar a criação de uma imagem. Essas instruções são interpretadas linha a linha pelo motor do Docker.
 
 # Requisitos
