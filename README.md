@@ -27,7 +27,7 @@ docker images
 docker run -d -p 80:80 --name meu-site -e API_URL=http://api.meusite.com.br/api/ -v $PWD/site/arquivos:/Arquivos/ barcelos3/app-v1
 
 # Verifique se o container está rodando e a saúde do mesmo
-docker ps -a
+docker ps -a \
 docker stats
 
 # Acesse o app pelo navegador
